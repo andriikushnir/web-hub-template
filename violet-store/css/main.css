@@ -1,0 +1,55 @@
+
+
+
+/* start - banner */
+
+.banner{
+    border-radius: 5px;
+    padding: 25px 45px 25px 45px;
+    transition: background-color 0.2s;
+}
+.banner:hover{
+    background-color: #470e92;
+}
+.banner-header{
+    margin-right: 30px;
+}
+.banner-header__icon{
+    font-size: 40px;
+    color: white;
+}
+.banner-body{
+    
+}
+.banner-body__title{
+    font-weight: 600;
+    color: #ceb6ec;
+}
+.banner-body__text{
+    font-size: 16px;
+    color: #ceb6ec;
+}
+
+/* end - banner */
+
+
+/* start - card (bootstrap) */
+
+
+/* end card */
+
+.btn-like{
+    border: 1px solid #400b85;
+    color: #400b85;
+}
+.btn-like:hover{
+    background-color: #400b85;
+    color: white;
+}
+
+.card-btn-review{
+    border-radius: 30px;
+    background-color: #eae5ec;
+    font-size: 18px;
+    color: #613e8f;
+}
