@@ -1,4 +1,7 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 /* start - banner */
@@ -52,4 +55,24 @@
     background-color: #eae5ec;
     font-size: 18px;
     color: #613e8f;
+}
+
+
+.btn-cap{
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    color: #400b85;
+    transition: background-color 0.4s, color 0.4s ;
+}
+.btn-cap:hover{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.navbar-bg-color{
+    background-color: #410f83;
 }

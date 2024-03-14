@@ -70,3 +70,17 @@
     background-color: #d7cbe4;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px, rgb(243, 243, 243) 0px 0px 12px;
 }
+
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler{
+    border: none;
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+}
